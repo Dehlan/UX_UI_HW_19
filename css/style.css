@@ -1,0 +1,507 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Karla';
+    color: white;
+    background-color: #212C2C;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #212C2C;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.Logo{
+    float: left;
+    padding: 5px 0;
+
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.heroimg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 91px 185px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 10px;
+}
+.Iphone {
+    float: right;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+.content {
+    width: 590px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.heroAbout{
+    font-size: 24px;
+    width: 557px;
+}
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    margin: 0;
+    background: #2F3F3C;
+}
+.aboutInfo{
+    font-family: 'Karla';
+    color: white;
+    font-size: 24px;
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    flex: none;
+    flex-grow: 0;
+}
+.aboutMe{
+    font-family: 'Karla';
+    display: flex;
+    flex-direction: row;
+    gap: 315px;
+    padding: 91px 185px;
+}
+h4{
+    font-family: 'Karla';
+    font-size: 64px;
+    margin: 0;
+}
+.caseStudies{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 90px 64px;
+    gap: 37px;
+    height: 1285px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    align-items: center;
+}
+h3{
+    font-size: 64px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    padding-bottom: 71px;
+}
+h5{
+    font-size: 64px;
+    margin: 0;
+    float: left;
+    padding-right: 1211px;
+}
+.projectCards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 84px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.projectCard1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 37px;
+    gap: 116px;
+    width: 1447px;
+    height: 434px;
+    background: #2F3F3C;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 24px;
+
+}
+h6{
+    font-size: 36px;
+    margin: 0;
+    width: 624px;
+}
+.project1Info{
+    font-size: 24px;
+    width: 535px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+    flex-grow: 0;
+}
+.button:hover{
+    cursor: pointer;
+    background: #F9C593;
+    color: black;
+    border-color: black;
+}
+.TBRButton:hover{
+    cursor: pointer;
+    background: #F9C593;
+    color: black;
+    border-color: black;
+}
+.TBRButton {
+    /* Frame 2226 */
+    color: white;
+    background: none;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 34px;
+    gap: 10px;
+    width: 199px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 586px;
+    margin-top: 41px;
+}
+.FCCButton:hover{
+    cursor: pointer;
+    background: #F9C593;
+    color: black;
+    border-color: black;
+}
+.FCCButton {
+    /* Frame 2226 */
+    color: white;
+    background: none;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 34px;
+    gap: 10px;
+    width: 199px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 586px;
+    margin-top: 41px;
+}
+.projectCard2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 37px;
+    gap: 116px;
+    width: 1447px;
+    height: 434px;
+    background: #2F3F3C;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 24px;
+}
+.project2Info{
+    font-size: 24px;
+    width: 535px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+    flex-grow: 0;
+}
+
+footer {
+    background-color: #2F3F3C;
+    padding: 20px;
+}
+li{
+    margin-left: 15px;
+    padding-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.button{
+    width: 233px;
+    height: 28px;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    background-color: transparent;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 40px;
+    gap: 0px;
+    position: absolute;
+    width: 301px;
+    height: 58px;
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+    margin-top: 42px;
+
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 38px;
+    margin: 0;
+}
+
+h2{
+    font-size: 48px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.footerButtons{
+    margin: 0;
+    padding-left: 876px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.emailbutton{
+
+    /* Email */
+
+
+    width: 48px;
+    height: 21px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 29px;
+    gap: 10px;
+
+    
+    width: 106px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+}
+.linkedinbutton:hover{
+    cursor: pointer;
+    background: #F9C593;
+    color: black;
+    border-color: black;
+}
+.emailbutton:hover{
+    cursor: pointer;
+    background: #F9C593;
+    color: black;
+    border-color: black;
+}
+.linkedinbutton{
+    /* Email */
+
+
+    width: 48px;
+    height: 21px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 18px;
+    gap: 10px;
+
+    
+    width: 106px;
+    height: 47px;
+
+    border: 2px solid #F9C593;
+    border-radius: 8px;
+}
+
+   .Dylan {
+       background: linear-gradient(180deg, #F9C593 58.33%, rgba(255, 126, 2, 0) 100%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+       font-size: 48px;
+   }
+   .Welcome {
+        font-size: 64px;
+   }
+   .containerf{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+   }
+p {
+    font-size:24px;
+}
+.Contact{
+    background: linear-gradient(180deg, #F9C593 58.33%, rgba(255, 126, 2, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 20px;
+}
+.Contact:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline #F9C593;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 800ms ease-in;
+}
+.fade-in.appear{
+    opacity: 1;
+}
+.from-left{
+    transform: translateX(-50%);
+}
+.from-right{
+    transform: translate(50%);
+}
+.from-left, .from-right{
+    transition: opacity 800ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+.from-left.appear, .from-right.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+.projectCard1.fade-in{
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+}
+.projectCard1.fade-in.appear{
+    opacity: 1;
+}
